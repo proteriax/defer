@@ -10,7 +10,7 @@
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "moduleResolution": "node",
-    "module": "esnext",
+    "module": "commonjs",
     "importHelpers": true,
     "jsx": "react",
     "experimentalDecorators": true,

@@ -1,16 +1,18 @@
 {
   "name": "@proteria/defer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Defer<T> implementation",
   "main": "lib/index.js",
-  "type": "module",
+  "module": "esm/index.js",
   "files": [
     "lib",
+    "es",
     "LICENSE",
     "README.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && tsc --project tsconfig.esm.json"
   },
   "keywords": [],
   "author": "",
