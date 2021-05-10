@@ -1,0 +1,30 @@
+{
+  "name": "@proteria/defer",
+  "version": "0.1.0",
+  "description": "Defer<T> implementation",
+  "main": "lib/index.js",
+  "type": "module",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "4.2.4"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "tabWidth": 2,
+    "printWidth": 90,
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  }
+}
